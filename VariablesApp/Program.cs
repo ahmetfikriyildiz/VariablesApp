@@ -28,6 +28,8 @@ namespace VariablesApp
             double ikinci = Convert.ToDouble(Console.ReadLine()); // bu değişkende double kullnamamın sebebi ondalıklı bir sayı kullanılabilir
             double toplam = ikinci + ilk; // işlemin içinde kullanılan deişkenlerin double olması sebebi ile
             double pp = toplam /10; // işlemin içinde kullanılan deişkenlerin double olması sebebi ile
+
+
             Console.WriteLine("--------------------------------------------");
             Console.WriteLine($"{tc} Tc Numarali {ad} isimli kisi için kayit olusturulmustur.");
             Console.WriteLine($"{tel} telefon numarasina bildirim mesaji gönderilmiştir.");
